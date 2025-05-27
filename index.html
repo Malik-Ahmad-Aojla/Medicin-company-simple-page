@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NeuroMD Section</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="media.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Road+Rage&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- Head -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+
+
+</head>
+<body>
+
+    <section class="bgColor">
+        <div class="sectionOne maxWidth">
+          <div class="box contentBox">
+              <div class="verify">
+                  <img src="images/verify.svg" alt="">
+                  <span>60-Day Trial Money Back Guarantee</span>
+              </div>
+              <h1 class="heading">Can NeuroMD help fix your back pain? Find out in less than 60 seconds.</h1>
+              <div class="ratting">
+                <img src="images/star.svg" class="reviewImage" alt="">
+                <span class="review">4125 Reviews</span>
+              </div>
+              <p class="description">Take this short back pain screening test to find out if you’re eligible for the same treatment that over 1,000,000 Americans have used to relieve their pain for good.</p>
+              <button class="quizBtn">Check Eligibility</button>
+              <p class="point">• Take our 1 min quiz & see if you qualify‍‍ </p>
+          </div>
+          <div class="box imgBox">
+            <img src="images/1.webp" alt="">
+          </div>
+        </div>
+    </section>
+
+
+    <!-- Modal -->
+    <div id="eligibilityModal" class="modal">
+        <div class="modal-content">
+            <div class="close-btn">x</div>
+            <div class="modalHead">
+                <img src="images/modalHead.webp" alt="">
+            </div>
+            <div class="modalBody">
+                <div class="container">
+                    <div class="progress-bar-container">
+                    <span>0% complete</span>
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="nav-buttons">
+                        <button class="nav-btn">&#x25C0;</button>
+                        <button class="nav-btn">&#x25B6;</button>
+                    </div>
+                    </div>
+
+                    <div class="question-section">
+
+                        <div class="questionOne questions">
+                            <h2>How long have you been suffering from back pain?</h2>
+                            <div class="options">
+                                <label class="option">
+                                <input type="radio" name="duration" />
+                                <span>Less than 6 months</span>
+                                </label>
+                                <label class="option">
+                                <input type="radio" name="duration" />
+                                <span>6–12 months</span>
+                                </label>
+                                <label class="option">
+                                <input type="radio" name="duration" />
+                                <span>12 months or longer</span>
+                                </label>
+                            </div>
+
+                        </div>
+
+                        <div class="questionTwo questions">
+                            <h2>How long have you been suffering from back pain?</h2>
+                            <div class="painContainer">
+                                <div class="painBox">
+                                    <img src="images/b.png" alt="">
+                                    <div class="radioBox">
+                                        <input type="radio" name="pain" />
+                                        <span>Lower/Back</span>
+                                    </div>
+                                </div>
+                                <div class="painBox">
+                                    <img src="images/b.png" alt="">
+                                    <div class="radioBox">
+                                        <input type="radio" name="pain" />
+                                        <span>Lower/Back</span>
+                                    </div>
+                                </div>
+                                <div class="painBox">
+                                    <img src="images/b.png" alt="">
+                                    <div class="radioBox">
+                                        <input type="radio" name="pain" />
+                                        <span>Lower/Back</span>
+                                    </div>
+                                </div>
+                                <div class="painBox">
+                                    <img src="images/b.png" alt="">
+                                    <div class="radioBox">
+                                        <input type="radio" name="pain" />
+                                        <span>Lower/Back</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="questionThree questions">
+                            <div class="electronicContainer">
+                                <h2>Do you have any electronic implants?</h2>
+                                <p>(i.e. pacemakers, implantable cardioverter defibrillators, pain pump, etc.)</p>
+                                <div class="electronicBox">
+                                    <input type="radio" value="yes" name="electronic">
+                                    <span>Yes</span>
+                                </div>
+                                <div class="electronicBox">
+                                    <input type="radio" value="no" name="electronic">
+                                    <span>No</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="questionFour questions">
+                            <div class="causeContainer">
+                                <h2>We want to make sure we are a good match for you. Please select what may be causing your pain:</h2>
+                                <p>NeuroMD does not help with pain caused by tumors.
+                                </p>
+                                <div class="causeBox">
+                                    <input type="checkbox" name="cause">
+                                    <span>Nerve Pain</span>
+                                </div>
+                                <div class="causeBox">
+                                    <input type="checkbox" name="cause">
+                                    <span>Nerve Pain</span>
+                                </div>
+                                <div class="causeBox">
+                                    <input type="checkbox" name="cause">
+                                    <span>Nerve Pain</span>
+                                </div>
+                                <div class="causeBox">
+                                    <input type="checkbox" name="cause">
+                                    <span>Nerve Pain</span>
+                                </div>
+                                <div class="causeBox">
+                                    <input type="checkbox" name="cause">
+                                    <span>Nerve Pain</span>
+                                </div>
+                                <button class="nextBtn">Next</button>
+                            </div>
+                        </div>
+
+
+                        <div class="questionFive questions">
+                            <div class="emailContainer">
+                                <h2>Congratulations! As an ideal candidate, you're eligible for a 62% OFF discount.
+                                </h2>
+                                <h4>Your pain type matches 87% of our 1,139,067 users.</h4>
+                                <p>Save 62% on NeuroMD by entering your email</p>
+                                <div class="emailBox">
+                                    <input type="email" placeholder="Your Email">
+                                </div>
+                                <button class="redeemBtn">Redeem Offer</button>
+                            </div>
+                        </div>
+
+
+                        <div class="questionSix questions">
+                            <div class="ImplantsContainer">
+                                <h2>Unfortunately, NeuroMD IS NOT Advisable for Use With Electronic Implants
+                                </h2>
+                                <p>If you feel like you have answered this question incorrectly, you can retake it by clicking below. Or leave this quiz by clicking back. </p>
+                                <button class="reTakeBtn">Retake Question</button>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="modalFoot">
+                <img src="images/modal1.webp" alt="">
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="main-ritual">
+        <div class="inner-ritual">
+            <div class="ritual-box-one">
+                <div class="slide-image">
+                    <img src="images/l1.svg" alt="">
+                </div>
+                <div class="ritual-para">
+                    “My morning ritual that relieves the pain"
+                </div>
+            </div>
+            <div class="ritual-box-one">
+                <div class="slide-image">
+                    <img src="images/l2.svg" alt="">
+                </div>
+                <div class="ritual-para">
+                    “Your physical therapist & massage therapist in an at-home device.”
+                </div>
+            </div>
+            <div class="ritual-box-one">
+                <div class="slide-image">
+                    <img src="images/l3.svg" alt="">
+                </div>
+                <div class="ritual-para">
+                    “Enjoyable treatments that provide lasting relief”
+                </div>
+            </div>
+            <div class="ritual-box-one">
+                <div class="slide-image">
+                    <img src="images/l4.svg" alt="">
+                </div>
+                <div class="ritual-para">
+                    “The critical piece in achieving long-lasting pain relief”
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="sectionMargin">
+        <div class="sectionThree maxWidth">
+            <div class="boxThree imgThree">
+                <img src="images/imgThree.webp" alt="">
+            </div>
+            <div class="boxThree contentThree">
+                <h1 class="headingThree">Here’s your chance to put an end to meds, shots, and invasive procedures.</h1>
+                <p class="descriptionThree">The clinically studied Neuromuscular Electrical Stimulation treatment protocol is used by physical therapists and athletes to promote rehabilitation of weak or injured muscles.</p>
+                <button class="btnThree">Can NeuroMD Help Me?</button>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="main-assesment">
+        <div class="inner-assesment">
+           <div class="data-assesment">
+              <div class="therap-para">
+                 <p>NeuroMD Corrective  Therapy</p>  
+              </div>
+              <div class="assesment-heading">
+                 <h1>Begin The Back Pain Assesment</h1>
+              </div>
+              <div class="star-reviews">
+                 <img src="images/star.svg" alt="" class="assesment-star">
+                 <div class="assess-rev-text">5141 Reviews</div>
+              </div>
+              <div class="quest-head">
+                 <p>Why?</p>
+              </div>
+              <div class="asses-treat">
+                 <div class="asses-img">
+                    <img src="images/bCheck.svg" alt="">
+                 </div>
+                 <div class="asses-img-text">Not all types can benifits of NMES Treatments</div>
+              </div>
+              <div class="asses-treat">
+                 <div class="asses-img">
+                    <img src="images/bCheck.svg" alt="">
+                 </div>
+                 <div class="asses-img-text">Take 60 Second Less Than to find Out</div>
+              </div>
+              <div class="asses-treat">
+                 <div class="asses-img">
+                    <img src="images/bCheck.svg" alt="">
+                 </div>
+                 <div class="asses-img-text">Over 1000,000 american Corrected Their pain with NeuroMd Technology</div>
+              </div>
+              <div class="main-screening-text">
+                 <div class="screening-bttn">
+                    <a href="">Go to back pain screening test</a>
+                 </div>
+                 <div class="radio-main">
+                    <img src="images/bCheck.svg" alt="">
+                    <div class="radio-text">
+                       FSA & HSA eligible
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+
+    </div>
+
+
+    <section class="treammentSection">
+        <div class="main-treat">
+            <div class="treat-heading">
+                <h1>Over 1,165,491 Treatment Completed</h1>
+            </div>
+            <div class="treat-title">
+                <p>NeuroMD is used by People who suffer from :</p>
+            </div>
+        <div class="inner-treat">
+        <div class="treat-box-one">
+         <img src="images/eleven.jpg" alt="">   
+        </div>
+        <div class="box-two">
+         <ul class="box-ul">
+         <li>Anterolisthesis</li>
+         <li>Schronic back pain</li>
+         <li>Sciatica</li>
+         <li>Sciatica</li>
+         <li>Sciatica</li>
+         <li>Sciatica</li>
+         </ul>
+        </div>
+        <div class="box-two">
+            <ul class="box-ul">
+            <li>Anterolisthesis</li>
+            <li>Sciatica</li>
+            <li>Sciatica</li>
+            <li>Sciatica</li>
+            <li>Sciatica</li>
+            <li>Sciatica</li>
+            </ul>
+           </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="neuroWorkSection">
+
+        <div class="main-neuro">
+            <div class="topHead">
+
+                <div class="top-neuro-heading">
+                    <h1>How Does NeuroMD Work?</h1>
+                </div>
+                <div class="neuro-para">
+                    <p>It stops pain at the sources</p>
+                </div>
+            </div>
+            <div class="inner-neuro">
+                <div class="main-neuro-boxes">
+                    
+                    <div class="neuro-box">
+                        <div class="neuro-img">
+                            <img src="image-works-1.webp" alt="">
+                        </div>
+                        <div class="neuro-tittle">
+                            <li>Your muscles contract and relax during a quick 25-minute session</li>
+                        </div>
+                    </div>
+
+                    <div class="neuro-box">
+                        <div class="neuro-img">
+                            <img src="image-works-2.webp" alt="">
+                        </div>
+                        <div class="neuro-tittle">
+                            <li>
+                                Sensory and motor nerves are stimulated by clinically
+                                studied neuromuscular electrical stimulation (NMES)
+                            </li>
+                        </div>
+                    </div>
+
+                    <div class="neuro-box">
+                        <div class="neuro-img">
+                            <img src="image-works-3.webp" alt="">
+                        </div>
+                        <div class="neuro-tittle">
+                            <li>Your muscles contract and relax during a quick 25-minute session</li>
+                        </div>
+                    </div>
+
+                    <div class="neuro-box end-neuro-box">
+                        <div class="neuro-img">
+                            <img src="image-works-4.webp" alt="">
+                        </div>
+                        <div class="neuro-tittle">
+                            <li>Your muscles contract and relax during a quick 25-minute session</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div> 
+    </section>
+
+
+    <section class="weekSection">
+        <div class="main-week">
+            
+            <div class="week-heading">
+                <h1>
+                    Stop masking the pain with creams, pills, heating pads, and TENS units — 
+                    <br class="week-brk">
+                    start experiencing lasting relief
+                </h1>
+            </div>
+    
+            <div class="week-tittle">
+                <p>
+                    NeuroMD works to correct your back pain through a 12-week consistent program and continues to
+                    <br class="week-brk">
+                    provide thorough relief through maintenance
+                </p>
+            </div>
+    
+            <div class="inner-week">
+    
+                <div class="week-box">
+                    <div class="week-img">
+                        <img src="images/w1.webp" alt="">
+                    </div>
+                    <ul class="week-ul">
+                        <li>Start on Mode 1</li>
+                        <li>Use NeuroMD 4 out of 7 days per week</li>
+                        <li>Each session lasts 25 minutes</li>
+                    </ul>
+                </div>
+    
+                <div class="week-box">
+                    <div class="week-img">
+                        <img src="images/w2.webp" alt="">
+                    </div>
+                    <ul class="week-ul">
+                        <li>Begin on Mode 2</li>
+                        <li>Use NeuroMD 6 out of 7 days per week</li>
+                        <li>Each session lasts 25 minutes</li>
+                    </ul>
+                </div>
+    
+                <div class="week-box">
+                    <div class="week-img">
+                        <img src="images/w3.webp" alt="">
+                    </div>
+                    <ul class="week-ul">
+                        <li>Maintain on Mode 2</li>
+                        <li>Use NeuroMD 2–4 days per week</li>
+                        <li>Each session lasts 25 minutes</li>
+                    </ul>
+                </div>
+    
+            </div>
+            
+        </div>  
+    </section>
+
+    <section class="sectionMargin">
+        <div class="testimonialSection">
+            <h2 class="sectionTitle">Here's What Others Are Saying</h2>
+            <div class="testimonialContainer">
+              
+              <div class="testimonialCard">
+                <div class="videoWrapper">
+                  <iframe width="100%"  src="https://www.youtube.com/embed/gdYnFstvrxs?autoplay=0&mute=0&controls=1&origin=https%3A%2F%2Fgetneuromd.com&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fgetneuromd.com%2Fpages%2Fquiz&aoriginsup=1&vf=1" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="testimonialContent">
+                  <h3>Ryan</h3>
+                  <h4>Highly Recommend</h4>
+                  <p>Early in January, I developed lower back pain, sciatica pain that made it really hard to move. I used to be a big runner and I wasn’t even able to run anymore. I tried chiropractors, tens units, and ibuprofen, but nothing seemed to work for me. I saw NeuroMD and thought I may as well give it a try. And it actually worked really, really well for me. No, I”m very active, I go to the gym every day, and most importantly, waking up and I’m actually able to move. So, so far so good! I’ve had it for about 6 weeks and it seems to be getting better ad better every time I try it. So, I highly recommend NeuroMD.</p>
+                  <div class="stars">
+                    <img src="images/fStar.svg" alt="">
+                  </div>
+                  <div class="verifiedReview">
+                    <img src="images/gCheck.svg" alt="">
+                    <span>Verified Review</span>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonialCard">
+                <div class="videoWrapper">
+                  <iframe width="100%"  src="https://www.youtube.com/embed/gdYnFstvrxs?autoplay=0&mute=0&controls=1&origin=https%3A%2F%2Fgetneuromd.com&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fgetneuromd.com%2Fpages%2Fquiz&aoriginsup=1&vf=1" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="testimonialContent">
+                  <h3>Ryan</h3>
+                  <h4>Highly Recommend</h4>
+                  <p>I purchased the NeuroMD device for my husband's birthday. He has 3 herniated discs, 3 surgeries, spinal stenosis, arthritis, and osteoarthritis, and has tried everything to relieve his pain. Bob has been using the device for 3.5 weeks and has experienced awesome results. Now he doesn’t toss and turn at night anymore. It’s been fantastic! Thank you NeuroMD!</p>
+                  <div class="stars">
+                    <img src="images/fStar.svg" alt="">
+                  </div>
+                  <div class="verifiedReview">
+                    <img src="images/gCheck.svg" alt="">
+                    <span>Verified Review</span>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonialCard">
+                <div class="videoWrapper">
+                  <iframe width="100%"  src="https://www.youtube.com/embed/gdYnFstvrxs?autoplay=0&mute=0&controls=1&origin=https%3A%2F%2Fgetneuromd.com&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fgetneuromd.com%2Fpages%2Fquiz&aoriginsup=1&vf=1" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="testimonialContent">
+                  <h3>Ryan</h3>
+                  <h4>Highly Recommend</h4>
+                  <p>I purchased this device 5 weeks ago. I was diagnosed with spinal stenosis and have been having issues with my back for over 10 years. In 3 weeks, I was out of pain. I’m standing up straight, able to move and walk longer than 5 minutes. I will never have another epidural for my spinal stenosis. Thank you NeuroMD, you have changed my life forever!</p>
+                  <div class="stars">
+                    <img src="images/fStar.svg" alt="">
+                  </div>
+                  <div class="verifiedReview">
+                    <img src="images/gCheck.svg" alt="">
+                    <span>Verified Review</span>
+                  </div>
+                </div>
+              </div>
+        
+          
+            </div>
+        </div>
+    </section>
+
+    <section class="sectionMargin">
+        <div class="imagesSection">
+
+            <div class="imgBoxes">
+                <img src="images/one.webp" alt="">
+            </div>
+            <div class="imgBoxes">
+                <img src="images/two.webp" alt="">
+            </div>
+            <div class="imgBoxes">
+                <img src="images/three.webp" alt="">
+            </div>
+            <div class="imgBoxes">
+                <img src="images/four.webp" alt="">
+            </div>
+            <div class="imgBoxes">
+                <img src="images/five.webp" alt="">
+            </div>
+            <div class="imgBoxes">
+                <img src="images/six.webp" alt="">
+            </div>
+            <div class="imgBoxes">
+                <img src="images/seven.webp" alt="">
+            </div>
+            <div class="imgBoxes">
+                <img src="images/eight.webp" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="imageBg forDesktop">
+        <div class="image-container">
+          <h1>See What’s Included in Your All-Inclusive Treatment Kit</h1>
+          <img src="https://cdn.shopify.com/s/files/1/0201/2450/0032/files/composition-type-image.jpg?v=1691754569" alt="Main Image">
+      
+          <!-- Tooltip with image icons -->
+          <div class="dot" style="top: 20%; left: 30%;">
+            <img src="images/n6.webp" alt="Icon 1">
+            <div class="tooltip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quaerat.</div>
+          </div>
+          <div class="dot" style="top: 40%; left: 70%;">
+            <img src="images/n5.webp" alt="Icon 2">
+            <div class="tooltip">Lorem ipsum dolor sit amet consectetur</div>
+          </div>
+          <div class="dot" style="top: 65%; left: 45%;">
+            <img src="images/n4.webp" alt="Icon 3">
+            <div class="tooltip">Lorem ipsum</div>
+          </div>
+          <div class="dot" style="top: 10%; left: 80%;">
+            <img src="images/n3.webp" alt="Icon 4">
+            <div class="tooltip">Point 4</div>
+          </div>
+          <div class="dot" style="top: 75%; left: 20%;">
+            <img src="images/n2.webp" alt="Icon 5">
+            <div class="tooltip">Lorem ipsum dolor sit amet consectetur</div>
+          </div>
+          <div class="dot" style="top: 55%; left: 60%;">
+            <img src="images/n1.webp" alt="Icon 6">
+            <div class="tooltip">dolor sit amet consectetur</div>
+          </div>
+        </div>
+    </section>
+      
+    <section class="forMobile imageBg">
+        <h1>See What’s Included in Your All-Inclusive Treatment Kit</h1>
+        <div class="forMImg">
+          <img src="images/nine.webp" alt="">
+        </div>
+        <div class="pointContainer">
+          <div class="pointBox">
+            <img src="images/n1.webp" alt="">
+            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, natus?</span>
+          </div>
+          <div class="pointBox">
+            <img src="images/n1.webp" alt="">
+            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, natus?</span>
+          </div>
+          <div class="pointBox">
+            <img src="images/n1.webp" alt="">
+            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, natus?</span>
+          </div>
+          <div class="pointBox">
+            <img src="images/n1.webp" alt="">
+            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, natus?</span>
+          </div>
+          <div class="pointBox">
+            <img src="images/n1.webp" alt="">
+            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, natus?</span>
+          </div>
+          <div class="pointBox">
+            <img src="images/n1.webp" alt="">
+            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, natus?</span>
+          </div>
+        </div>
+    </section>
+
+    <section class="sectionMargin">
+        <div class="sliderSection">
+            <h1 class="mainHead">Clinically Proven Stimulation Parameters</h1>
+            <div class="sliderContainer">
+                
+                <div class="slideBox">
+                    <div class="slideBoxInner">
+                        <div class="slideImg">
+                            <img src="images/ten.webp" alt="">
+                        </div>
+                        <div class="slideText">
+                            <h1 class="slideHead">Study 3</h1>
+                            <div class="slideDescription">
+                                <h6 class="slideSubHead">Clinical effects of electrical stimulation therapy on lumbar disc herniation-induced sciatica and its influence on peripheral ROS level</h6>
+                                <p class="slidePara">"In conclusion, in the treatment of lumbar disc herniation-induced sciatica, electrical stimulation therapy can effectively reduce the pain degree, relieve the clinical symptoms and signs, improve the peripheral ROS level and prevent the oxidative damage of myocardial tissues and other complications, so it is worthy of clinical application and promotion."</p>
+                                <h6 class="slideDes">Wang, L., Fan, W., Yu, C., Lang, M., & Sun, G. (2018, September). Retrieved from</h6>
+                                <a href="" class="slideLink">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6146184</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slideBox">
+                    <div class="slideBoxInner">
+                        <div class="slideImg">
+                            <img src="images/ten.webp" alt="">
+                        </div>
+                        <div class="slideText">
+                            <h1 class="slideHead">Study 3</h1>
+                            <div class="slideDescription">
+                                <h6 class="slideSubHead">Clinical effects of electrical stimulation therapy on lumbar disc herniation-induced sciatica and its influence on peripheral ROS level</h6>
+                                <p class="slidePara">"In conclusion, in the treatment of lumbar disc herniation-induced sciatica, electrical stimulation therapy can effectively reduce the pain degree, relieve the clinical symptoms and signs, improve the peripheral ROS level and prevent the oxidative damage of myocardial tissues and other complications, so it is worthy of clinical application and promotion."</p>
+                                <h6 class="slideDes">Wang, L., Fan, W., Yu, C., Lang, M., & Sun, G. (2018, September). Retrieved from</h6>
+                                <a href="" class="slideLink">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6146184</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slideBox">
+                    <div class="slideBoxInner">
+                        <div class="slideImg">
+                            <img src="images/ten.webp" alt="">
+                        </div>
+                        <div class="slideText">
+                            <h1 class="slideHead">Study 3</h1>
+                            <div class="slideDescription">
+                                <h6 class="slideSubHead">Clinical effects of electrical stimulation therapy on lumbar disc herniation-induced sciatica and its influence on peripheral ROS level</h6>
+                                <p class="slidePara">"In conclusion, in the treatment of lumbar disc herniation-induced sciatica, electrical stimulation therapy can effectively reduce the pain degree, relieve the clinical symptoms and signs, improve the peripheral ROS level and prevent the oxidative damage of myocardial tissues and other complications, so it is worthy of clinical application and promotion."</p>
+                                <h6 class="slideDes">Wang, L., Fan, W., Yu, C., Lang, M., & Sun, G. (2018, September). Retrieved from</h6>
+                                <a href="" class="slideLink">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6146184</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slideBox">
+                    <div class="slideBoxInner">
+                        <div class="slideImg">
+                            <img src="images/ten.webp" alt="">
+                        </div>
+                        <div class="slideText">
+                            <h1 class="slideHead">Study 3</h1>
+                            <div class="slideDescription">
+                                <h6 class="slideSubHead">Clinical effects of electrical stimulation therapy on lumbar disc herniation-induced sciatica and its influence on peripheral ROS level</h6>
+                                <p class="slidePara">"In conclusion, in the treatment of lumbar disc herniation-induced sciatica, electrical stimulation therapy can effectively reduce the pain degree, relieve the clinical symptoms and signs, improve the peripheral ROS level and prevent the oxidative damage of myocardial tissues and other complications, so it is worthy of clinical application and promotion."</p>
+                                <h6 class="slideDes">Wang, L., Fan, W., Yu, C., Lang, M., & Sun, G. (2018, September). Retrieved from</h6>
+                                <a href="" class="slideLink">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6146184</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slideBox">
+                    <div class="slideBoxInner">
+                        <div class="slideImg">
+                            <img src="images/ten.webp" alt="">
+                        </div>
+                        <div class="slideText">
+                            <h1 class="slideHead">Study 3</h1>
+                            <div class="slideDescription">
+                                <h6 class="slideSubHead">Clinical effects of electrical stimulation therapy on lumbar disc herniation-induced sciatica and its influence on peripheral ROS level</h6>
+                                <p class="slidePara">"In conclusion, in the treatment of lumbar disc herniation-induced sciatica, electrical stimulation therapy can effectively reduce the pain degree, relieve the clinical symptoms and signs, improve the peripheral ROS level and prevent the oxidative damage of myocardial tissues and other complications, so it is worthy of clinical application and promotion."</p>
+                                <h6 class="slideDes">Wang, L., Fan, W., Yu, C., Lang, M., & Sun, G. (2018, September). Retrieved from</h6>
+                                <a href="" class="slideLink">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6146184</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+    <section class="faqBg">
+        <div class="faq-section">
+        <h2>FAQ</h2>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span class="icon">+</span>
+            How does your 60 day at-home trial work?
+          </button>
+          <div class="faq-answer">You can try NeuroMD for 60 days with a money-back guarantee...</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span class="icon">+</span>
+            Does NeuroMD accept FSA or HSA?
+          </button>
+          <div class="faq-answer">Yes, NeuroMD accepts both FSA and HSA payments...</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span class="icon">+</span>
+            Do you offer an affordable payment plan and what is Affirm?
+          </button>
+          <div class="faq-answer">We offer payment plans through Affirm. You can split payments into monthly installments...</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span class="icon">+</span>
+            Will NeuroMD work for my pain?
+          </button>
+          <div class="faq-answer">NeuroMD is designed to relieve back pain through neuromuscular stimulation...</div>
+        </div>
+        </div>
+    </section>
+
+    <section class="sectionMargin">
+        <div class="reviewSection">
+            <h1 class="mainHeading">Over 4000+ Positive Reviews</h1>
+            <p class="mainPara">100% Customer Satisfaction with 60-Day Money Back Guarantee</p>
+            <div class="reviewContainer">
+                <div class="reviewBox">
+                    <div class="fStar">
+                        <img src="images/fStar.svg" alt="">
+                    </div>
+                    <h1 class="reviewboxHead">Doctors should prescribe NeuroMD!</h1>
+                    <p class="reviewBoxPara">I have been using the NeuroMd for a month. It provides much better relief than the TENS pads that I used previously. Use it daily in morning on my lower back. The relief has been amazing! I highly recommended this product.</p>
+                    <div class="verifyUser">
+                        <span>- Robert K.</span>
+                        <span>Verified buyer</span>
+                    </div>
+                </div>
+                <div class="reviewBox">
+                    <div class="fStar">
+                        <img src="images/fStar.svg" alt="">
+                    </div>
+                    <h1 class="reviewboxHead">Doctors should prescribe NeuroMD!</h1>
+                    <p class="reviewBoxPara">I have been using the NeuroMd for a month. It provides much better relief than the TENS pads that I used previously. Use it daily in morning on my lower back. The relief has been amazing! I highly recommended this product.</p>
+                    <div class="verifyUser">
+                        <span>- Robert K.</span>
+                        <span>Verified buyer</span>
+                    </div>
+                </div>
+                <div class="reviewBox">
+                    <div class="fStar">
+                        <img src="images/fStar.svg" alt="">
+                    </div>
+                    <h1 class="reviewboxHead">Doctors should prescribe NeuroMD!</h1>
+                    <p class="reviewBoxPara">I have been using the NeuroMd for a month. It provides much better relief than the TENS pads that I used previously. Use it daily in morning on my lower back. The relief has been amazing! I highly recommended this product.</p>
+                    <div class="verifyUser">
+                        <span>- Robert K.</span>
+                        <span>Verified buyer</span>
+                    </div>
+                </div>
+                <div class="reviewBox">
+                    <div class="fStar">
+                        <img src="images/fStar.svg" alt="">
+                    </div>
+                    <h1 class="reviewboxHead">Doctors should prescribe NeuroMD!</h1>
+                    <p class="reviewBoxPara">I have been using the NeuroMd for a month. It provides much better relief than the TENS pads that I used previously. Use it daily in morning on my lower back. The relief has been amazing! I highly recommended this product.</p>
+                    <div class="verifyUser">
+                        <span>- Robert K.</span>
+                        <span>Verified buyer</span>
+                    </div>
+                </div>
+                <div class="reviewBox">
+                    <div class="fStar">
+                        <img src="images/fStar.svg" alt="">
+                    </div>
+                    <h1 class="reviewboxHead">Doctors should prescribe NeuroMD!</h1>
+                    <p class="reviewBoxPara">I have been using the NeuroMd for a month. It provides much better relief than the TENS pads that I used previously. Use it daily in morning on my lower back. The relief has been amazing! I highly recommended this product.</p>
+                    <div class="verifyUser">
+                        <span>- Robert K.</span>
+                        <span>Verified buyer</span>
+                    </div>
+                </div>
+                <div class="reviewBox">
+                    <div class="fStar">
+                        <img src="images/fStar.svg" alt="">
+                    </div>
+                    <h1 class="reviewboxHead">Doctors should prescribe NeuroMD!</h1>
+                    <p class="reviewBoxPara">I have been using the NeuroMd for a month. It provides much better relief than the TENS pads that I used previously. Use it daily in morning on my lower back. The relief has been amazing! I highly recommended this product.</p>
+                    <div class="verifyUser">
+                        <span>- Robert K.</span>
+                        <span>Verified buyer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="script.js"></script>
+
+
+
+  
+
+</body>
+</html>

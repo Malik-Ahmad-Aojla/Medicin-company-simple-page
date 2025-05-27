@@ -1,0 +1,268 @@
+@media (max-width:768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    .sectionOne {
+        flex-direction: column;
+        padding-left: 0rem;
+    }
+    
+    .sectionOne .box.contentBox {
+        flex-basis: 100%;
+        margin-top: 3rem;
+        margin-inline: 20px;
+    } 
+    .sectionOne .box.imgBox {
+        flex-basis: 100%;
+        margin-top: 35px;
+    } 
+    .sectionOne .box.imgBox img {
+        width: 100%;
+    } 
+    .sectionOne .contentBox .quizBtn {
+        width: 100%;
+    }
+
+
+    /* modal section  */
+
+    .painContainer {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+      }
+      .painBox {
+        flex-basis: calc(50% - 10px);
+      }
+      .container {
+        padding: 10px 9px;
+      }
+      .nav-btn {
+        font-size: 10px;
+        width: 20px;
+        height: 20px;
+      }
+
+
+    /* Section Three  */
+
+
+    .sectionMargin {
+        margin-inline: 20px;
+    }
+    .sectionThree {
+        padding: 2rem;
+        gap: 30px;
+        flex-direction: column;
+    }
+    .sectionThree .boxThree {
+        flex-basis: 100%;
+    }
+    .sectionThree .contentThree .btnThree {
+        width: 100%;
+    }
+
+
+
+    /* images section  */
+
+    .imagesSection {
+        gap: 20px;
+      }
+    
+      .imagesSection .imgBoxes {
+        flex-basis: calc(50% - 20px);
+      }
+
+
+      /* Review Section  */
+
+      .reviewContainer .reviewBox {
+        flex-basis: calc(100% - 30px);
+      }
+
+
+      /* Slider Section  */
+
+      .slideBoxInner {
+        gap: 30px;
+        flex-direction: column;
+      }
+    
+      .slideImg {
+        flex-basis: 100%;
+      }
+      .slideText {
+        flex-basis: 100%;
+      }
+
+}
+
+@media (max-width:1280px) {
+    .sectionMargin {
+        margin-inline: 30px;
+    }
+}
+
+
+
+/* Points Section  */
+
+@media (min-width:991px) {
+    .forMobile {
+      display: none;
+    }
+  }
+
+  @media (max-width:991px) {
+    .forDesktop {
+      display: none;
+    }
+    .forMImg img {
+      width: 100%;
+    }
+    .forMobile h1 {
+      text-align: center;
+    color: #4B4566;
+    padding: 30px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;      
+  }
+    .pointBox img {
+width: 30px;
+}
+.pointBox {
+display: flex;
+align-items: center;
+gap: 20px;
+margin-inline: 20px;
+margin-block: 25px;
+}
+.pointBox span {
+color: #4B4566;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+}
+
+
+/* Treatment Section  */
+
+
+.inner-treat{
+  grid-template-columns:1fr;
+}
+.main-treat {
+  padding:30px 15px;
+}
+.treat-heading{
+  line-height:34px;
+}
+.treat-heading h1{
+text-align: left;
+} 
+.treat-title p{
+text-align: left;    
+}
+.box-two{
+border-radius:12px;
+border:1px solid #EEEEEEFF;
+}
+
+
+
+/* Assesment Section  */
+
+
+.inner-assesment{
+  background-image: none;
+  padding-block: 20px;
+}
+.screening-bttn {
+  width: 92%;
+}
+.main-screening-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+.screening-bttn a{
+  display: block;
+  text-align: center;
+}
+.radio-main {
+  width: 100%;
+}
+
+
+/* Main Neuro Section  */
+
+
+.topHead {
+  background-color: #568ADA;
+  padding-inline: 20px;
+  padding-block: 10px;
+}
+.top-neuro-heading h1{
+  color: white;
+  text-align: left;
+} 
+.neuro-para p{
+  color: white;
+  text-align: left;
+} 
+.inner-neuro {
+  padding: 10px 0;
+}
+
+.main-neuro-boxes{
+grid-template-columns: 1fr;
+}
+
+.neuro-img {
+  display: none;
+}
+.neuro-tittle li{
+  list-style-type: disc;
+  text-align: left;
+}
+
+
+/* Week Section  */
+
+
+.weekSection {
+  padding-inline: 20px;
+}
+.inner-week{
+  grid-template-columns:1fr;
+} 
+.week-heading h1{
+  font-size:28px;
+  line-height:32px;
+  text-align: left;
+}
+.week-tittle p{
+  font-size:16px;
+  line-height:22px;
+  text-align: left;
+}
+.week-brk{
+  display:none;
+} 
+
+
+/* Main Ritual Section    */
+
+
+.inner-ritual {
+  display: block; /* disable grid, slick will handle layout */
+}
+
+
+
+  }
